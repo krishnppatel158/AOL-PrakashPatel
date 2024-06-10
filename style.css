@@ -1,0 +1,189 @@
+/* The Art of Living Website CSS*/
+html, body{
+background:#ddd;
+}
+a:hover{
+cursor:pointer;
+}
+/* Navagation Hover*/
+.nav:hover{
+color:#FFD700;
+text-decoration: none;
+}
+.nav{
+color:lightslategray;
+text-decoration: none;
+margin:30px;
+margin-bottom: 0px;
+font-family: 'Gotham Narrow Book';
+}
+nav img{
+height:50px;
+width:125px;
+margin:30px;
+margin-bottom: 0px;
+border:black solid 2px;
+}
+.tile{
+margin:50px;
+display:inline-block;
+}
+.tile:hover{
+color:#FFD700;
+}
+.tile-title1, .tile-title2, .tile-title3,.tile-title4 {
+font-size:24px;
+font-family:monospace;
+color:rgba(0,0,0,0.8);
+text-decoration: none;
+}
+.tile-title1:hover, .tile-title2:hover, .tile-title3:hover,.tile-title4:hover{
+color:#FFD700;
+}
+
+.courseHighlights{
+
+list-style:circle;
+margin:20px;
+padding:30px;
+font-family:cursive;
+
+}
+
+.Intro{
+text-align: center;
+margin:10px;
+padding:10px;
+}
+footer{
+background:gray;
+padding:10px;
+bottom:0px;
+margin:20px;
+box-sizing: border-box;
+}
+footer a{
+background:orange;
+background:linear-gradient(to bottom, #fc3, #f91);
+color:white;
+text-decoration: none;
+padding:10px;
+margin:5px;
+border:2px solid #ddd;
+text-align: left;
+
+}
+footer a:hover{
+background:linear-gradient(to top, #fc3, #f91);
+text-decoration: underline;
+border: 2px solid #aaa;
+text-align:center;
+bottom:10px;
+text-align: right;
+}
+.footer-ul li{
+color:#ddd;
+list-style: none;
+margin:5px;
+text-align: center;
+}
+.footer-ul strong{
+color:white;
+font-family:cursive;
+text-align: center;
+}
+.footer-ul{
+margin:10px;
+text-align: center;
+}
+footer p{
+margin:20px;
+text-align: center;
+}
+.Content{
+border: 2px solid black;
+margin:300px;
+margin-top:50px;
+margin-bottom:0px;
+text-align: center;
+padding:20px;
+background:white;
+}
+.Content h2{
+color:red;
+font-family:cursive, monospace;
+
+}
+.Content small a{
+margin:10px;
+margin:-left:100px;
+font-weight: bold;
+color:red;
+font-family: cursive, monospace;
+
+}
+.Content iframe{
+margin-top:30px;
+}
+#TheAOL{
+text-align: center;
+margin:40px;
+padding:10px;
+background-size:cover; 
+background-blend-mode:screen;
+}
+
+#TheAOL #About-AOL {
+text-align: left;
+border:1px solid ;
+border-radius:30px;
+margin:400px;
+margin-top:20px;
+margin-bottom: 20px;
+padding:20px;
+padding-left:20px;
+text-align: center;
+color:red;
+background:rgba(225,225,225,.7);;
+}
+.container {
+background:rgba(225,225,225,.7);
+border:red solid 1px;
+border-radius:30px;
+margin:200px;
+margin-bottom:20px; 
+margin-top:20px;
+padding:10px;
+color:red;
+}
+.container h1{
+color:blue;
+}
+.container p{
+color:#6074DA;
+}
+.None{
+    display: none;
+}
+.Papa-Intro{
+    border: ivory 3px solid;
+    background: url("https://scontent.fyyz1-2.fna.fbcdn.net/v/t39.30808-6/294728601_552647306380303_2403202254433564357_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0q_1wY2aYOkQ7kNvgHzFhGm&_nc_ht=scontent.fyyz1-2.fna&oh=00_AYBeaKzCKH8Td9RYM2kSpVkUnecVwev1VcjCSkQ34Gfa2w&oe=666D31A3");
+    width: 540px;
+    height: 500px;
+    margin: 30px 400px;
+}
+
+.Papa-Intro h1,.Papa-Intro h2{
+    border:ivory solid 2px;
+    background: rgba(30,30,30,.8);
+    color:white;
+    margin:143px 376px 0 26px;
+    padding:7px 4px 7px 4px;
+    font-family: cursive, monospace, sans-serif,  serif;
+}
+
+/* ALL */
+.no-margin,.no-padd{
+    margin:0px;
+    padding:0px;
+}
